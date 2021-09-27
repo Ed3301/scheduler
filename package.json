@@ -10,10 +10,6 @@
     "postinstall": "npm run build-themes"
   },
   "dependencies": {
-    "@syncfusion/ej2": "^19.2.62",
-    "@syncfusion/ej2-vue-base": "^19.2.60",
-    "@syncfusion/ej2-vue-calendars": "^19.2.62",
-    "@syncfusion/ej2-vue-schedule": "^19.2.60",
     "axios": "^0.21.4",
     "core-js": "^3.6.5",
     "devextreme": "^21.1.5",
