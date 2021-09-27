@@ -19,13 +19,6 @@
           :current-date="currentDate"
           :customize-date-navigator-text="customizeDateNavigatorText"
         >
-          <!-- <DxView
-            :cell-duration="30"
-            :interval-count="1"
-            type="workWeek"
-            name="Vertical Grouping"
-            group-orientation="vertical"
-          /> -->
           <DxResource
             :allow-multiple="false"
             :data-source="priorityData"
