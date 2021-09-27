@@ -8,7 +8,12 @@
           :views="views"
           :data-source="appointments"
           :show-all-day-panel="false"
+          :cell-duration="60"
+          :start-day-hour="0"
+          :end-day-hour="24"
+          :first-day-of-week="1"
           :groups="groups"
+          :height="700"
           :current-view="currentView"
           recurrence-rule-expr="recurrence"
           :current-date="currentDate"
@@ -129,7 +134,7 @@ export default Vue.extend({
 });
 </script>
 
-<style scoped>
+<style>
 #scheduler .dx-scheduler-cell-sizes-horizontal {
   padding: 0%;
   margin: 0%;
